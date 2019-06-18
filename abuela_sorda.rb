@@ -6,10 +6,7 @@ get '/' do
 end
 
 post '/' do
-    <<-HTML
-    <h1> Abuela Sorda</h1>
 
-    HTML
     if params[:texto] == params[:texto].upcase
         <<-HTML
         <h1> Ahhh si, manzanas!</h1>
